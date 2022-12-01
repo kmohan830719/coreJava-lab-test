@@ -7,11 +7,14 @@ public class TraficSignal  extends Thread{
 	//main method
 	public static void main(String[] args) {
 		
+		//an infinite do while loop
+		do {
 		//creating threads
 		Thread A = new Thread();
 		Thread B = new Thread();
 		Thread C = new Thread();
 		//red light at the start
+		
 		System.out.println("Red Light ON");
 		
 		//atarting thread a
@@ -46,6 +49,8 @@ public class TraficSignal  extends Thread{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	
+		}while(true);
 
 	}
 
