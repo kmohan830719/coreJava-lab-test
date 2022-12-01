@@ -45,7 +45,7 @@ public class Functionalities {
 		        break;
 		case 3: scor.score();
 		        break;
-		case 4:
+		case 4:System.out.println("exit");
 			default:
 		}
 		
